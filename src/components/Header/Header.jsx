@@ -6,7 +6,7 @@ const Header = () => {
         <div className='container justify-center justify-items-center'>
             <div className="navbar">
                 <div className="flex-1">
-                    <a className="btn btn-ghost normal-case text-xl">Knowledge Cafe</a>
+                    <a className="btn btn-ghost normal-case text-xl">Career Cafe</a>
                 </div>
 
                 <div className="w-12">

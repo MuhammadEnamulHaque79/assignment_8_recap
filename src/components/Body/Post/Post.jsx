@@ -1,13 +1,15 @@
 import React from 'react';
 import PostCard from './PostCard/PostCard';
 
-const Post = () => {
+const Post = ({data}) => {
     return (
         <div className='container'>
-            <PostCard></PostCard>
-            <PostCard></PostCard>
-            <PostCard></PostCard>
-            <PostCard></PostCard>
+            {
+              data.map((postData)=><PostCard
+              key={postData.id}
+              postData={postData}
+              ></PostCard>)  
+            }
         </div>
     );
 };

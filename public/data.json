@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "John",
+      "avatar": "https://i.ibb.co/W5KxgYG/avatar1.png",
+      "watchTime": "2 hours",
+      "date": "May 20, 2022 (340 days ago)",
+      "blogTitle": "How to Build a Chatbot",
+      "URL": "https://example.com/chatbot-tutorial"
+    },
+    {
+      "id": 2,
+      "name": "Emily",
+      "avatar": "https://i.ibb.co/3pHsN44/avatar2.png",
+      "watchTime": "1.5 hours",
+      "date": "Jul 7, 2022 (292 days ago)",
+      "blogTitle": "10 Tips for Productivity",
+      "URL": "https://example.com/productivity-tips"
+    },
+    {
+      "id": 3,
+      "name": "Michael",
+      "avatar": "https://i.ibb.co/rpqT1Xt/avatar3.png",
+      "watchTime": "3 hours",
+      "date": "Oct 1, 2022 (206 days ago)",
+      "blogTitle": "How to Start a Business",
+      "URL": "https://example.com/business-startup"
+    },
+    {
+      "id": 4,
+      "name": "Sarah",
+      "avatar": "https://i.ibb.co/WH6Wszh/avatar4.png",
+      "watchTime": "1 hour",
+      "date": "Dec 25, 2022 (121 days ago)",
+      "blogTitle": "5 Easy DIY Projects",
+      "URL": "https://example.com/diy-projects"
+    },
+    
+    {
+      "id": 5,
+      "name": "David",
+      "avatar": "https://i.ibb.co/vQ0bg3P/avatar5.png",
+      "watchTime": "2.5 hours",
+      "date": "Mar 15, 2023 (41 days ago)",
+      "blogTitle": "Introduction to Machine Learning",
+      "URL": "https://example.com/machine-learning-intro"
+    },
+    {
+      "id": 6,
+      "name": "Jessica",
+      "avatar": "https://i.ibb.co/5RR0LQF/avatar6.png",
+      "watchTime": "1.5 hours",
+      "date": "Apr 18, 2023 (7 days ago)",
+      "blogTitle": "10 Healthy Meal Prep Recipes",
+      "URL": "https://example.com/meal-prep-recipes"
+    }
+  ]
+  
