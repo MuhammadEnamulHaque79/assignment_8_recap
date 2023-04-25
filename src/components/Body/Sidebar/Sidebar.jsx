@@ -11,8 +11,6 @@ const Sidebar = ({timeCount,titleData}) => {
 
             <div className='p-5 m-5 border rounded border-neutral-900'>
                 <h2 className='text-2xl text-semibold text-center rounded p-5 m-5 bg-gray-200 border border-neutral-900'>Bookmarked Blogs : {titleData.length} </h2>
-               
-
             </div>
         </div>
     );

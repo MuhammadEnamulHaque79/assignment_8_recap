@@ -15,12 +15,14 @@ const Body = () => {
     },[]);
 
     //handle timeCount function;
+
     const handleTime =(watchTime)=>{
         const totalTime = timeCount + parseInt(watchTime);
         setTimeCount(totalTime);
     }
 
     //handle titleCount function;
+    
     const handleTitle=(postData)=>{
         // console.log('Yes, I can',postData);
         const newPostData = [postData];

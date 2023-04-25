@@ -2,7 +2,7 @@ import React from 'react';
 import { FaBookmark } from 'react-icons/fa';
 
 const PostCard = ({postData,handleTime,handleTitle}) => {
-    const {id, name,date,blogTitle,watchTime,avatar} = postData;
+    const {id, name,date,title,watchTime,avatar} = postData;
 
     return (
         <div className='border-2 border-rose-500 mb-5 rounded'>
@@ -31,7 +31,7 @@ const PostCard = ({postData,handleTime,handleTitle}) => {
                         </button>
                     </div>
 
-                    <h2 className="card-title">{blogTitle}</h2>
+                    <h2 className="card-title">{title}</h2>
                     <p>#programming #beginner</p>
                     <div className="card-actions">
                         <button onClick={()=>handleTitle(postData)} className="btn btn-primary">Mark as read</button>
