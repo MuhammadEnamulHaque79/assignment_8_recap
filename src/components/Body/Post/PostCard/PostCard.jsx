@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaBookmark } from 'react-icons/fa';
 
-const PostCard = ({postData}) => {
-    const {name,date,blogTitle,watchTime,avatar} = postData;
+const PostCard = ({postData,handleTime,handleTitle}) => {
+    const {id, name,date,blogTitle,watchTime,avatar} = postData;
 
     return (
         <div className='border-2 border-rose-500 mb-5 rounded'>
@@ -23,15 +23,18 @@ const PostCard = ({postData}) => {
                             </div>
                         </div>
 
-                        <div className='flex items-center justify-between gap-3'>
-                            {watchTime} <span><FaBookmark/></span>
-                        </div>
+                        <button onClick={()=>handleTime(watchTime)} className='flex items-center justify-between gap-3'>
+                          
+                            {watchTime} min read <span><FaBookmark/></span>
+                          
+
+                        </button>
                     </div>
 
                     <h2 className="card-title">{blogTitle}</h2>
                     <p>#programming #beginner</p>
                     <div className="card-actions">
-                        <button className="btn btn-primary">Mark as read</button>
+                        <button onClick={()=>handleTitle(postData)} className="btn btn-primary">Mark as read</button>
                         
                     </div>
                 </div>
